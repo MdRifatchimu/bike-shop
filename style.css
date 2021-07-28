@@ -17,3 +17,60 @@ body {
   background-color: #e76f51 !important;
   color: white !important;
 }
+/* feature bike  */
+hr.underline {
+  color: #e76f51;
+  border: 1px solid #e76f51;
+  width: 59px;
+  margin: auto;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+.grayscale {
+  filter: grayscale(100%);
+}
+.grayscale:hover {
+  filter: none;
+}
+/* Latest News */
+.card {
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+
+.card img {
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+a.btn:focus {
+  outline: none;
+  color: inherit;
+}
+a.btn {
+  background-color: #e76f51;
+  color: whitesmoke;
+  padding: 10px 20px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  transition: 0.35s;
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -ms-transition: 0.35s;
+  -o-transition: 0.35s;
+}
+a.btn:hover {
+  color: #e76f51;
+  background-color: transparent;
+  border-color: #e76f51;
+}
