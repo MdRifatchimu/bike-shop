@@ -1,8 +1,13 @@
+/* making base css ready  */
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+
+/* hero section css  */
+
 .hero {
   background-color: #264653;
 }
@@ -74,9 +79,81 @@ a.btn:hover {
   background-color: transparent;
   border-color: #e76f51;
 }
-/* happy client */
-.full-star{
+/* Testimonial */
+.full-star {
   color: #e77c40;
 }
+/* Faq */
+.colored-border {
+  background-color: #fff;
+  border: 1px solid #d5e5fb !important;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+  color: black !important;
+}
+.accordion-button:focus {
+  border-color: black !important;
+  box-shadow: none !important;
+}
 
+/* contact */
+.contact-form {
+  background: #ffffff;
+  margin-top: 10%;
+  width: 70%;
+}
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #e76f51;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #e77c40;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
 
+/* footer */
+footer {
+  color: white;
+  background-color: rgb(102, 102, 207);
+}
