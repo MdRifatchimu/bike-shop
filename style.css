@@ -37,9 +37,7 @@ hr.underline {
 .grayscale {
   filter: grayscale(100%);
 }
-.grayscale:hover {
-  filter: none;
-}
+
 /* Latest News */
 .card {
   border-radius: 20px !important;
